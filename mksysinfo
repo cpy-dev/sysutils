@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cp ./sysinfo /usr/local/bin
+
+echo "clear
+neofetch --color_blocks off
+sysinfo
+" > $1
